@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+#breeds {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+#generate-btn {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generate-btn:hover {
+    background-color: #45a049;
+}
+
+#dog-image {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#dog-image:hover {
+    transform: scale(1.05);
+}
